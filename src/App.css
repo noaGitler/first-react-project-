@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+/* ==================== בסיס עמוד ==================== */
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background-color: #fff8f0;
+  background: linear-gradient(135deg, #fff8f0, #fbe8d3);
+  font-family: 'Nunito', 'Segoe UI', Arial, sans-serif;
+}
+
+/* מכולת האפליקציה הראשית */
+.app-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+button {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+

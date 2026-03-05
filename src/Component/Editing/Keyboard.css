@@ -1,0 +1,45 @@
+/* ==================== מקלדת ==================== */
+.keyboard-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.keyboard-row {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.keyboard-row button {
+  padding: 10px 14px;
+  border-radius: 6px;
+  border: 1px solid #b05a5a;
+  background-color: #fff5ee;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.keyboard-row button:hover {
+  background-color: #e6c8b4;
+  transform: scale(1.05);
+  background: linear-gradient(to bottom, #fff5ee, #f9e0d0);
+}
+
+.keyboard-row button.space-key {
+  flex: 1;
+  max-width: 200px;
+  padding: 10px 0;
+  border-radius: 6px;
+  background-color: #fff5ee;
+  border: 1px solid #b05a5a;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.keyboard-row button.space-key:hover {
+  background-color: #e6c8b4;
+  transform: scale(1.05);
+}

@@ -1,0 +1,85 @@
+
+/* ==================== תפריט קבצים ==================== */
+.file-panel {
+  width: 220px;
+  border: 3px solid #8b2e2e; 
+  border-radius: 12px; 
+  padding: 15px;
+  box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15); /* צל קל למראה עומק */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.file-panel h3 {
+  margin: 0 0 10px 0;
+  color: #8b2e2e;
+  font-weight: bold;
+  text-align: center;
+}
+
+.file-panel button {
+  background-color: #fff5ee;
+  border: 1px solid #b05a5a;
+  border-radius: 8px;
+  color: #8b2e2e;
+  cursor: pointer;
+  width: 100%;
+  padding: 6px;
+  margin: 3px 0;
+  transition: 0.25s;
+}
+
+.file-panel button:hover {
+  background-color: #e6c8b4;
+  transform: translateY(-2px) scale(1.03);
+}
+
+.file-panel ul li {
+  margin-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.file-panel ul li button {
+  width: 100%;
+  text-align: left;
+  padding: 6px 8px;
+  border-radius: 8px;
+  border: 1px solid #b05a5a;
+  background-color: #fff5ee;
+  transition: 0.2s;
+}
+
+.file-panel ul li button:hover {
+  background-color: #e6c8b4;
+  transform: scale(1.03);
+}
+
+.file-panel ul li button:last-child {
+  width: 28px;
+  padding: 2px 5px;
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.logout-button {
+  position: absolute;
+  top: 20px;
+  left: 25px;
+  background-color: #fff5ee;
+  border: 2px solid #b05a5a;
+  color: #8b2e2e;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  transition: all 0.25s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+

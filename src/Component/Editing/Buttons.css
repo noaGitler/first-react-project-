@@ -1,0 +1,58 @@
+/* ==================== כפתורים ==================== */
+.special-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.special-buttons button {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #b05a5a;
+  background-color: #fff5ee;
+  cursor: pointer;
+}
+
+.special-buttons button:hover {
+  background-color: #e6c8b4;
+  transform: scale(1.05);
+}
+
+/* ==================== הגדרות עיצוב נוספות ==================== */
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.language-buttons,
+.style-buttons,
+.replace-char-container {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.buttons-container button,
+.buttons-container select,
+.buttons-container input {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #b05a5a;
+  background-color: #fff5ee;
+  cursor: pointer;
+  transition: 0.2s;
+  font-size: 14px;
+}
+
+.buttons-container button:hover,
+.buttons-container select:hover,
+.buttons-container input:hover {
+  background-color: #e6c8b4;
+  transform: scale(1.05);
+}
+
